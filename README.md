@@ -8,8 +8,8 @@ Quickstart
     To run the file just press the play button found at the top
 
 Here is the results from the from the 10-cross validation
-Linear: Best score: Best Score (Mean Squared Error) = -787,964
-Lasso:Best Score = -785,163, Best Alpha = 45.35
-Ridge: Best Score = -787,783, Best Alpha = 1.92
-
-Lasso performed the best with an alpha value of approximately 45.35, yielding the lowest error among the models.
+              Model  Mean CV Score  Best Alpha (if applied)
+0  Linear Regression       0.769175                      NaN
+1              Lasso       0.771242                     10.0
+2              Ridge       0.773031                    100.0
+Best Model: Ridge with a score of 0.77
